@@ -1,0 +1,68 @@
+Como criar tabelas e garantir que elas estejam dentro da normatização
+
+SGBD - Sistema gerenciador de banbco de dados
+postgres sql versão 14
+
+Deixar marcadas todas as opções
+Deixar a porta 5432
+
+Conferindo se a instalação funcionou
+
+Abrir o programa pgAdmin - plataforma que usamos para interagir com o servidor
+
+Se abrir as abas deu tudo certo
+
+------------------------------------------------
+
+          Tipos de dados em bancos de dados
+
+4 tipos principais
+
+numerais
+texto
+data
+booleano
+
+Vamos ler o item Data types na documentação do Postgres
+Cuidar com o tamanho necessário dos itens para não ocupar mais memória do que o necessário
+
+------------------------------------------------
+          Modelagem de entidades
+
+O que são as entidades?
+Representações de algo real dentro do sistema
+
+Visual Paradigm
+
+Coisas que definem uma matrícula
+
+id_aluno - integer
+validado - date
+preco_da_mensalidade - real
+id_matricula - integer - chave primária
+
+Modelagem do professor
+
+id_professor
+nome
+disciplina
+ativo
+
+------------------------------------------------
+
+             Modelagem de relacionamentos
+
+Bancos de dados relacionais
+
+entidades: matrícula, aluno, professor, turma, livro
+
+Todo aluno terá uma matrícula - chave um pra um
+Chave estrangeira
+
+um para um
+vários para um
+
+------------------------------------------------
+
+             Nomralização dos dados
+
