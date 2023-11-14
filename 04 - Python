@@ -1,0 +1,168 @@
+Baixar e instalar o python
+add to path
+marcar as opções desejadas
+Linguagem de nivel
+
+ctrl + , - atalho  brir as configurações no VS Code
+
+------------------------------------------------
+
+                Entrada e saída de dados
+
+  código do arquivo
+
+print('Hello world!')
+print ('Seja bem-vinda(o) ao curso de Python Coding Tank!')
+
+input('Qual é a linguagem de programação que você está estudando?')
+
+----------------------------------------------------
+                 Variáveis             
+
+Quando estamos criando um código precisamos guardar alguns dados
+
+Exemplo: Estante -  espaços para guardar coisas
+
+Damos um nome paa variável para saber quais onde precisamos buscar os dados corretos
+
+# é o símbolo de comentário
+
+"""
+Três aspas duplas no começo
+e mais três no final de um
+trecho define comentá 
+multiplas linhas
+"""
+
+idade = 26 # criando uma variável
+
+print(idade)
+
+texto entre aspas simples
+
+nome = 'Jean Scheibe'
+
+Tipos:
+
+int
+float
+str
+bool
+
+print(type(idade)) # imprime o tipo da variável idade
+
+atribuindo uma entrada a uma variável
+
+linguagem = input('Qual é a linguagem que você está está estudando? ')
+
+print('A linguagem que você está estudando é', linguagem)
+
+---------------------------------------------------------------
+                     Operadores Booleanos e aritméticos
+
+Soma +
+Subtração -
+Multiplicação *
+Divisão = 
+Divisão inteira = // - Retorna um int , descararta a parte decimal
+Resta da divisão: %
+Potências: **
+
+# Operadores booleanos
+
+>
+<
+>=
+<=
+==
+!=
+
+----------------------------------------------
+                 Conversão de tipos
+
+idade = '33' # escrito no tipo errado
+
+print(idade, type(idade))
+
+idade_inteira = int(idade)
+
+int()
+str()
+float()
+bool()
+
+altura = float(input('informe sua altura: '))
+
+print(altura, type(altura))
+
+----------------------------------------------
+
+                 Estruturas condicionais
+
+
+idade = 20
+
+if idade >= 18:
+    print('Você é maior de idade')
+else:
+    print('Você ée idade')
+
+"""
+média
+"""
+
+media = float(input('Informe a média do estudante'))
+
+if media >= 7:
+    print('Você foi aprovado(a)!')
+elif media >= 5:
+    print('Recuperação')
+else:
+    print('Você foi reprovado(a)!')
+
+# Considerando a frequência
+
+media = 10
+presenca = 100
+
+if media >= 7 and presenca >= 70:
+    print('Aprovado!')
+else:
+    print('Reprovado')
+
+----------------------------------------
+       Laços de repetição (while)
+
+Jogo em que o usuário precisa acertar o número pré-definido
+
+numero_sorteado = 15
+
+numero_escolhido  int(input('Escolha um número entre 1 e 20: '))
+
+while numero_escolhido != numero_sorteado:
+    print('Você errou o número, tente novamente...')
+    numero_escolhido = int(input('informe um número entre 1 e 20: '))
+
+print('Parabéns, você acertou')
+
+Estrutura com contador
+
+contador = 0
+
+while contador < 10:
+
+    print(contador)
+    contador = contador + 1
+
+Laços de repetição for
+
+
+
+
+
+
+
+
+
+
+
