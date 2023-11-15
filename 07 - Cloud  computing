@@ -1,0 +1,117 @@
+    Introdução ao cloud computing
+
+Utilização de recursos físicos de outros lugares através da internet
+
+Computação utilitária - utiliza o recurso que necessita pelo período que você necessita
+
+------------------------------------------------
+    Cloud pública x privada e principais provedores
+
+Data Center - Locais geralmente afastados dos grandes centros com redundância de energia elétrica e internet que abrigam
+os servidores que serão alugados
+
+redhat e vmware são alguns dos principais servidores de cloud privada
+
+aws, azure e googlecloud grandes provedores de cloud computing - pública - servidores compartilhados entre clientes
+
+------------------------------------------------
+    Modelos IaaS, PaaS, SaaS e Serverless
+
+Relativos a quanto da estrutura é o próprio cliente que gerencia
+
+ON SITE - Tudo
+Infra as a Service - 
+------------------------------------------------
+    Principais serviços pt1
+
+AWS
+
+iam
+ec2
+
+regiões (local onde fica o servidor física)
+Lei geral de proteção de dados
+Cloudwatch
+Usuário root
+------------------------------------------------
+    Principais serviços pt2
+
+RDS - Relational database service
+Chave de identificação única na tabela - chave primária
+
+DynamoDB
+
+S3 - armazenar qualquer tipo de dado
+partfile, divido os arquivos em parte para subir, se der algum problema, recomeça de onde parou, o que o torna mais rápido
+
+------------------------------------------------
+    Arquitetura para cloud
+
+Well archtected framework
+6 pilares
+
+Excelência operacional
+Segurança
+Confiabilidade
+Eficiência de performance
+Otimização de custos
+Sustentabilidade
+
+Resiliência
+Eficiência
+Escalabilidade
+Performance
+
+Fault inject Simulator
+
+Teste de estresse para ver o escalonamento funcionando
+------------------------------------------------
+    Introdução a infraestrutura como código
+
+Criação de templates de configuração
+Padrões de configuração para acelerar o processo de criação de instâncias, etc
+
+Terraform - exemplo
+Te ajuda a criar padrões que podem ser utilizados em qualquer provedor
+
+Cloudformation - só funciona na AWS
+------------------------------------------------
+    Introdução ao deployment em cloud
+
+Esteiras de CI/CD
+AWS codePipeline
+Source > Build > Test > Staging > Produção
+
+CI - Continuous integration
+CD - Continuous delivery
+
+Incremental
+Metodologias ágeis
+------------------------------------------------
+    Segurança
+
+Mínimo acesso possível para todos os usuários
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
