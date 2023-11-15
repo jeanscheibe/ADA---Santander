@@ -49,7 +49,6 @@ disciplina
 ativo
 
 ------------------------------------------------
-
              Modelagem de relacionamentos
 
 Bancos de dados relacionais
@@ -63,6 +62,45 @@ um para um
 vários para um
 
 ------------------------------------------------
-
              Nomralização dos dados
 
+Formas normais
+
+1 forma normal - cada atributo deve conter um único valor
+2 forma normal - Cada elemento da tabela deve depender apenas da sua chave primária - evitar redundância
+3 forma normal - um elemento não chave da tabela não pode depender de outro elemento não chave
+forma pos code - Sua tabela não pode ter mais de uma chave candidata
+------------------------------------------------
+           Inserindo tabelas no banco
+
+Aula prática no VP e PGadmin
+------------------------------------------------
+           Inserindo dados no banco
+
+select * from tabela  - mostra a tabela completa
+
+copy table(atributos)
+fromm
+delimiter  ','
+------------------------------------------------
+            Editando e removendo dados
+
+update nome_da_tabela set nomde_do_atributo
+
+delete from nome nome_da_tabela
+where nome_do_campo = 
+------------------------------------------------
+            Permissionamento views
+
+creaete view
+
+isso criivisualização parcial de uma tabela
+criando um vieww você
+não gasta memória ezes com os mesmos dados
+------------------------------------------------
+            Índices
+
+Busca melhora de performance
+
+Porque não colocar índices em todas as colunas?
+Porque para toda nova entrada é necessário repassar todos os dados
